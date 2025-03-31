@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+.app {
+  padding: 20px;
+}
+.capital-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.capital-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.capital-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.lang-switch {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
